@@ -25,7 +25,6 @@ Regardless if you can or cannot answer the question, provide a short explanation
 
 ## Solution
 
-To begin, I had to figure out what the genbank format was. In my search, I came across Biopython, so I used its [tutorial](http://biopython.org/DIST/docs/tutorial/Tutorial.html#sec341) along with documentation to create the diagrams. This method automatically reads the genbank file into a SeqRecord object which can easily be manipulated. I replicated the process that is demonstrated in the tutorial, adding features to a feature set and a track. The one modification I made to this process (besides cosmetic differences) was to create a diagram where overlapping features are separated. At first I was hesitant to make this change, because I was not familiar with genome diagrams in the first place, but I preferred the outcome more and it was suggested in an [post](https://www.biostars.org/p/60845/) from eight years ago.
-
+To begin, I had to figure out what the genbank format was. In my search, I came across Biopython, so I used its [tutorial](http://biopython.org/DIST/docs/tutorial/Tutorial.html#sec341) along with documentation to create the diagrams. This method automatically reads the genbank file into a SeqRecord object which can easily be manipulated. I replicated the process that is demonstrated in the tutorial, adding features to a feature set and a track. The one modification I made to this process (besides cosmetic differences) was to create a diagram where overlapping features are separated.
 ![Image of Overlapping Diagram](tomato_circular_overlap.png)
 ![Image of Diagram](tomato_circular.png)
